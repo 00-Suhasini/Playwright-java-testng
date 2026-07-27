@@ -1,0 +1,3 @@
+com\qa\telco\tests\BaseTest.class
+com\qa\telco\tests\HomePageTest.class
+com\qa\telco\tests\SimplictyPlanPageTest.class
