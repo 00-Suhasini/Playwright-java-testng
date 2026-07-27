@@ -29,14 +29,14 @@ public class HomePageTest extends BaseTest {
 	
 
 	
-	@Test(priority = 3)
+	@Test(priority = 4)
 	public void HomePageSearchheaderTest() {
 		homePage = new HomePage(page);
 		String actualHeader=homePage.doSearch();
 		Assert.assertEquals(actualHeader, Appconstants.HOMEPAGE_APPHEADER);
 	}
 	
-	@Test(priority =4)
+	@Test(priority =5)
 	public void SimplictyPlanPageTest() {
 		homePage = new HomePage(page);
 		
