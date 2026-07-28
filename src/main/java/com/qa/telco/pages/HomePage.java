@@ -4,7 +4,7 @@ import com.microsoft.playwright.Page;
 
 public class HomePage {
 	//mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="codegen https://www.verizon.com"
-	private Page page;
+	 Page page;
 //String locators
     
 	private String mobilesearch = "button#gnav20-Mobile-L1";
@@ -21,12 +21,14 @@ public class HomePage {
 	//constructor
 	public HomePage(Page page) {
 		this.page=page;
+	    System.out.println("HomePage page = " + this.page);
 	}
 	
 	//page actions/methods
 	public String getHomePgTitle() {
 		String title = page.title();
 		System.out.println("page title: " + title);
+		
 		return title;
 	}
 	

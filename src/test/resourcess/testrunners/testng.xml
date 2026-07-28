@@ -5,7 +5,7 @@
   <test name="Telco Page Test">
       <classes>
       <class name="com.qa.telco.tests.HomePageTest"/>
-      <class name= "com.qa.telco.tests.SimplictyPlanPageTest"/>
+   
       
       </classes>
   </test> <!-- Test -->    

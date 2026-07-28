@@ -2,32 +2,56 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-28T13:33:21 CDT" name="Default suite" finished-at="2026-07-28T13:33:40 CDT" duration-ms="19796">
+  <suite started-at="2026-07-28T14:05:35 CDT" name="Default suite" finished-at="2026-07-28T14:06:04 CDT" duration-ms="29304">
     <groups>
     </groups>
-    <test started-at="2026-07-28T13:33:21 CDT" name="Default test" finished-at="2026-07-28T13:33:40 CDT" duration-ms="19796">
+    <test started-at="2026-07-28T14:05:35 CDT" name="Default test" finished-at="2026-07-28T14:06:04 CDT" duration-ms="29304">
       <class name="com.qa.telco.tests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.telco.tests.HomePageTest@459e9125]" started-at="2026-07-28T13:33:21 CDT" name="setup" finished-at="2026-07-28T13:33:37 CDT" duration-ms="16601" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:05:35 CDT" name="setup" finished-at="2026-07-28T14:05:43 CDT" duration-ms="7972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="HomePageTitleTest()[pri:1, instance:com.qa.telco.tests.HomePageTest@459e9125]" started-at="2026-07-28T13:33:37 CDT" name="HomePageTitleTest" finished-at="2026-07-28T13:33:38 CDT" duration-ms="493" status="PASS">
+        <test-method signature="HomePageTitleTest()[pri:1, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:05:43 CDT" name="HomePageTitleTest" finished-at="2026-07-28T14:05:43 CDT" duration-ms="641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageTitleTest -->
-        <test-method signature="HomePageurlTest()[pri:2, instance:com.qa.telco.tests.HomePageTest@459e9125]" started-at="2026-07-28T13:33:38 CDT" name="HomePageurlTest" finished-at="2026-07-28T13:33:38 CDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:05:43 CDT" name="tearDown" finished-at="2026-07-28T14:05:43 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:05:43 CDT" name="setup" finished-at="2026-07-28T14:05:46 CDT" duration-ms="2907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePageurlTest()[pri:2, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:05:46 CDT" name="HomePageurlTest" finished-at="2026-07-28T14:05:46 CDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageurlTest -->
-        <test-method signature="HomePageSearchheaderTest()[pri:4, instance:com.qa.telco.tests.HomePageTest@459e9125]" started-at="2026-07-28T13:33:38 CDT" name="HomePageSearchheaderTest" finished-at="2026-07-28T13:33:39 CDT" duration-ms="929" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:05:46 CDT" name="tearDown" finished-at="2026-07-28T14:05:46 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:05:46 CDT" name="setup" finished-at="2026-07-28T14:05:51 CDT" duration-ms="4838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="HomePageSearchheaderTest()[pri:4, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:05:51 CDT" name="HomePageSearchheaderTest" finished-at="2026-07-28T14:05:54 CDT" duration-ms="2564" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageSearchheaderTest -->
-        <test-method signature="SimplictyPlanPageTest()[pri:5, instance:com.qa.telco.tests.HomePageTest@459e9125]" started-at="2026-07-28T13:33:39 CDT" name="SimplictyPlanPageTest" finished-at="2026-07-28T13:33:40 CDT" duration-ms="1670" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:05:54 CDT" name="tearDown" finished-at="2026-07-28T14:05:54 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:05:54 CDT" name="setup" finished-at="2026-07-28T14:06:01 CDT" duration-ms="7497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SimplictyPlanPageTest()[pri:5, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:06:01 CDT" name="SimplictyPlanPageTest" finished-at="2026-07-28T14:06:04 CDT" duration-ms="2732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SimplictyPlanPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.telco.tests.HomePageTest@459e9125]" started-at="2026-07-28T13:33:40 CDT" name="tearDown" finished-at="2026-07-28T13:33:40 CDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.telco.tests.HomePageTest@10e31a9a]" started-at="2026-07-28T14:06:04 CDT" name="tearDown" finished-at="2026-07-28T14:06:04 CDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
