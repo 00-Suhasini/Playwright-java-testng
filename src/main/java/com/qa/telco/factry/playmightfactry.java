@@ -25,19 +25,22 @@ public class playmightfactry {
 		String browserName = prop.getProperty("browser").trim();
 		System.out.println("browser name is : " + browserName);
 		play= Playwright.create();
+		boolean headless = Boolean.parseBoolean(prop.getProperty("headless"));
 		switch(browserName.toLowerCase()) {
+		
+		
 		case "chromium":
-			brow = play.chromium().launch(new BrowserType.LaunchOptions().setHeadless(false));
+			brow = play.chromium().launch(new BrowserType.LaunchOptions().setHeadless(headless));
 			break;
 		case "firefox":
-			brow = play.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
+			brow = play.firefox().launch(new BrowserType.LaunchOptions().setHeadless(headless));
 			break;
 		case "safari":
-			brow = play.webkit().launch(new BrowserType.LaunchOptions().setHeadless(false));
+			brow = play.webkit().launch(new BrowserType.LaunchOptions().setHeadless(headless));
 			break;
 		case "chrome":
 		
-			brow = play.chromium().launch(new LaunchOptions().setChannel("chrome").setHeadless(false));
+			brow = play.chromium().launch(new LaunchOptions().setChannel("chrome").setHeadless(headless));
 			break;	
 		default:
 			System.out.println("pass the browsername correctly");
