@@ -29,7 +29,19 @@ public class HomePageTest extends BaseTest {
 	
 
 	
+	
+	
+	
+	
+	
+	
+	
+	
 	@Test(priority = 4)
+	
+	
+	
+	
 	public void HomePageSearchheaderTest() {
 		homePage = new HomePage(page);
 		String actualHeader=homePage.doSearch();
