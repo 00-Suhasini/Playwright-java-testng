@@ -1,4 +1,5 @@
 com\qa\telco\factry\playmightfactry.class
 com\qa\telco\pages\HomePage.class
+com\qa\telco\utils\ScreenshotUtil.class
 com\qa\telco\constants\Appconstants.class
 com\qa\telco\pages\SimplictyPlanPage.class

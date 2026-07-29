@@ -3,6 +3,7 @@ package com.qa.telco.factry;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.Properties;
 
 import com.microsoft.playwright.Browser;
@@ -54,7 +55,7 @@ public class playmightfactry {
 	
 	public Properties init_prop() {
 		try {
-			FileInputStream fis= new FileInputStream("./src/test/resourcess/config/config.properties");
+			FileInputStream fis= new FileInputStream("./src/test/resources/config/config.properties");
 			prop = new Properties();
 			prop.load(fis);
 		} catch (FileNotFoundException e) {
@@ -64,4 +65,5 @@ public class playmightfactry {
 		}
 		return prop;
 	}
+	
 }

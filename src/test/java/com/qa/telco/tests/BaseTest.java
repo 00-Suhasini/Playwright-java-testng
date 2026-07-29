@@ -13,8 +13,11 @@ import com.qa.telco.pages.SimplictyPlanPage;
 
 public class BaseTest {
     playmightfactry pf;
-	protected Page page;
-	
+	protected static Page page;
+	 
+	public static Page getPage() {
+		return page;
+	}
 	
 	protected Properties prop;
 	protected HomePage homePage;   

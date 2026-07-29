@@ -1,12 +1,12 @@
 package com.qa.telco.tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
-import com.microsoft.playwright.Page;
+import com.qa.telco.listeners.TestListener;
 import com.qa.telco.constants.Appconstants;
-import com.qa.telco.pages.HomePage;
 
+@Listeners(TestListener.class)
 public class HomePageTest extends BaseTest {
   
 	//protected HomePage homePage;   

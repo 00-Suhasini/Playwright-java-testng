@@ -1,3 +1,6 @@
-com\qa\telco\tests\BaseTest.class
+com\qa\telco\listeners\TestListener.class
+com\qa\telco\reports\ExtentTestManager.class
 com\qa\telco\tests\HomePageTest.class
+com\qa\telco\reports\ExtentManager.class
+com\qa\telco\tests\BaseTest.class
 com\qa\telco\tests\SimplictyPlanPageTest.class
